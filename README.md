@@ -34,15 +34,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-In the Azure portal, create a Resource Group named Active-Directory-Lab, and a Virtual Network called Active-Directory-VNet in the East 2 region. Going straight to Review + Create is fine for both steps
+In the Azure portal, create a Resource Group named Active-Directory-Lab, and a Virtual Network called Active-Directory-VNet in the East 2 region. Going straight to Review + Create is fine for both steps.
 </p>
 <br />
 
 <p>
 <img src="https://github.com/user-attachments/assets/f9280da4-9930-4be2-9207-ad19663a865a"/>
+<img src="https://github.com/user-attachments/assets/d35b3308-f9e3-40a3-a9b1-8b0f7921b3ec"/>
+
 </p>
 <p>
-Create the VM DC-1 using the Windows Server 2022 Datacenter image with at least 2 vCPUs. Set the administrator username to labuser and the password to Cyberlab123!. Ensure that DC-1 is connected to the Active-Directory-VNet.
+Create the VM DC-1 using the Windows Server 2022 Datacenter image with at least 2 vCPUs. Set the administrator username to labuser and the password to Cyberlab123!. Ensure that DC-1 is connected to the Active-Directory-VNet. After Review + Create then Create.
 </p>
 <br />
 
