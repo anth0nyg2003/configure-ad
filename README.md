@@ -22,7 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create Resource Group & Virtual Network
-- Create Virtual Machine (Domain Controller)
+- Create Virtual Machines (Domain Controller & Client 1)
 - Step 3
 - Step 4
 
@@ -49,9 +49,11 @@ Create the VM DC-1 using the Windows Server 2022 Datacenter image with at least 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/41f5e412-44e7-4b00-9be6-ce1d24b9fb0c"/>
+<img src="https://github.com/user-attachments/assets/44ca1b34-67f3-4fab-9ecd-83818adaabcd"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create the VM Client-1using the Windows 10 Pro image. Use the same credentials as for DC-1 and connect Client-1 to the Active-Directory-VNet. Then Review + Create, and Create.
 </p>
 <br />
