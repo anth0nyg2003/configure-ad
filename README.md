@@ -22,7 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Create Resource Group & Virtual Network
-- Step 2
+- Create Virtual Machine (Domain Controller)
 - Step 3
 - Step 4
 
@@ -34,15 +34,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-In the Azure portal, create a Resource Group named `Active-Directory-Lab`, and a Virtual Network called `Active-Directory-VNet` in the East 2 region. Going straight to Review + Create is fine for both steps
+In the Azure portal, create a Resource Group named Active-Directory-Lab, and a Virtual Network called Active-Directory-VNet in the East 2 region. Going straight to Review + Create is fine for both steps
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f9280da4-9930-4be2-9207-ad19663a865a"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create the VM DC-1 using the Windows Server 2022 Datacenter image with at least 2 vCPUs. Set the administrator username to labuser and the password to Cyberlab123!. Ensure that DC-1 is connected to the Active-Directory-VNet.
 </p>
 <br />
 
