@@ -95,4 +95,12 @@ Right Click Start menu or the bottom left windows icon and click run. Type wf.ms
 </p>
 <br />
 
+<p>
+<img src="https://github.com/user-attachments/assets/2839d38a-4d42-41a8-b5ac-a6d37a77d027"/>
+<img src="https://github.com/user-attachments/assets/bbafb47b-82d9-4c6a-b3a8-62831f63bc44"/>
 
+</p>
+<p>
+Click Windows Defender FIrewall Properties and disable the firewall on the Domain, Private, and Public profiles to avoid connectivity issues.
+</p>
+<br />
