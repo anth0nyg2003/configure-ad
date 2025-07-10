@@ -80,3 +80,19 @@ Configure DC-1's network interface to use a static private IP address. You do th
 Remote into DC-1 using its Public IP via Remote Desktop. Log in using the credentials we set up above.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/463d7708-5e4c-4522-8632-cb0f24b96d5d"/>
+<p>
+This is what the remote desktop session looks like on DC-1.
+</p>
+<p>
+<img src="https://github.com/user-attachments/assets/cc199de1-0369-4a4d-94a3-5f850a6ab6e1"/>
+<img src="https://github.com/user-attachments/assets/5961ab1b-9d0a-4e3b-9868-9fc7cca1e4e4"/>
+</p>
+<p>
+Right Click Start menu or the bottom left windows icon and click run. Type wf.msc for Windows Firewall.
+</p>
+<br />
+
+
