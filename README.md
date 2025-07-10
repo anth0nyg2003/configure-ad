@@ -96,11 +96,13 @@ Right Click Start menu or the bottom left windows icon and click run. Type wf.ms
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/2839d38a-4d42-41a8-b5ac-a6d37a77d027"/>
-<img src="https://github.com/user-attachments/assets/bbafb47b-82d9-4c6a-b3a8-62831f63bc44"/>
+<img src="https://github.com/user-attachments/assets/7b52e8ec-fb2d-4c5f-a1cf-76039b73e98e"/>
+<img src="https://github.com/user-attachments/assets/4af3c22f-4b14-4019-8f81-d1d7847322c1"/>
 
 </p>
 <p>
-Click Windows Defender FIrewall Properties and disable the firewall on the Domain, Private, and Public profiles to avoid connectivity issues.
+In the Azure portal, navigate to DC-1 then Networking and copy the Domain Controller’s Private IP (in my case 10.0.0.4). Go to Client-1 > Networking and select its network interface configuration. Change the DNS Servers setting from Inherit from virtual network to Custom. Enter DC-1's Private IP as the DNS server and save the changes. Restart Client-1 to apply the new DNS settings.
 </p>
 <br />
+
+
