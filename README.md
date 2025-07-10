@@ -24,7 +24,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create Resource Group & Virtual Network
 - Create Virtual Machines (Domain Controller & Client 1)
 - Set Static IP for the Domain Controller
-- Step 4
+- Log in to Domain Controller via Remote Desktop and Disable Windows Firewall
+- Configure Client-1 to Use DC-1 as its DNS server
+- Verify Connectivity Between Client-1 and DC-1
+- Install Active Directory Domain Services
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -65,5 +68,15 @@ Create the VM Client-1using the Windows 10 Pro image. Use the same credentials a
 </p>
 <p>
 Configure DC-1's network interface to use a static private IP address. You do this by going to network settings under networking of the dc-1 virtual machine. This step is crucial because the client will use this IP as its DNS server.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/9ce98f2c-2e4e-4ac9-8b57-c2bef90ae851"/>
+<img src="https://github.com/user-attachments/assets/168044ad-e772-48b6-8166-75a6b0107107"/>
+
+</p>
+<p>
+Remote into DC-1 using its Public IP via Remote Desktop. Log in using the credentials we set up above.
 </p>
 <br />
