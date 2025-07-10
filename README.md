@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Create Resource Group & Virtual Network
 - Create Virtual Machines (Domain Controller & Client 1)
-- Step 3
+- Set Static IP for the Domain Controller
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
@@ -55,5 +55,15 @@ Create the VM DC-1 using the Windows Server 2022 Datacenter image with at least 
 </p>
 <p>
 Create the VM Client-1using the Windows 10 Pro image. Use the same credentials as for DC-1 and connect Client-1 to the Active-Directory-VNet. Then Review + Create, and Create.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/d63f75ae-24d7-40fb-82d6-fc0e9929713c"/>
+<img src="https://github.com/user-attachments/assets/b7fdf84d-c63c-45e0-bf04-894876f24e56"/>
+
+</p>
+<p>
+Configure DC-1's network interface to use a static private IP address. You do this by going to network settings under networking of the dc-1 virtual machine. This step is crucial because the client will use this IP as its DNS server.
 </p>
 <br />
