@@ -17,7 +17,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022 Datacenter
-- Windows 10 (21H2)
+- Windows 10 Pro (22H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
@@ -105,4 +105,11 @@ In the Azure portal, navigate to DC-1 then Networking and copy the Domain Contro
 </p>
 <br />
 
+<p>
+<img src="https://github.com/user-attachments/assets/7b52e8ec-fb2d-4c5f-a1cf-76039b73e98e"/>
+<img src="https://github.com/user-attachments/assets/4af3c22f-4b14-4019-8f81-d1d7847322c1"/>
 
+</p>
+<p>
+Remote into Client-1 via its Public IP. Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual static IP of DC-1) to test connectivity. Run ipconfig /all to confirm that the DNS server for Client-1 is set to DC-1's Private IP.
+<br />
