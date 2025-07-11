@@ -106,10 +106,21 @@ In the Azure portal, navigate to DC-1 then Networking and copy the Domain Contro
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/7b52e8ec-fb2d-4c5f-a1cf-76039b73e98e"/>
-<img src="https://github.com/user-attachments/assets/4af3c22f-4b14-4019-8f81-d1d7847322c1"/>
+<img src="https://github.com/user-attachments/assets/0b67fd44-1095-4853-a12c-e859f39fe77f"/>
+<img src="https://github.com/user-attachments/assets/b8e73753-f69c-44ec-8c69-5b78b7ba1482"/>
+<img src="https://github.com/user-attachments/assets/e63a8ebb-171f-4a2e-9b59-f58fca44f428"/>
+</p>
+<p>
+Remote into Client-1 via its Public IP. Log in with the credentials above. You can select no for all the privacy settings and click accept.
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/e3c03fb4-1c83-4f28-82fd-3a1626c035b6"/>
+<img src="https://github.com/user-attachments/assets/575c0993-f623-4e40-af54-0c77555b6807"/>
+<img src="https://github.com/user-attachments/assets/1c8321b0-3ab7-4a74-bbc1-e6863351fc24"/>
 
 </p>
 <p>
-Remote into Client-1 via its Public IP. Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual static IP of DC-1) to test connectivity. Run ipconfig /all to confirm that the DNS server for Client-1 is set to DC-1's Private IP.
+Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual static IP of DC-1) to test connectivity. Run ipconfig /all to confirm that the DNS server for Client-1 is set to DC-1's Private IP.
+</p>
 <br />
