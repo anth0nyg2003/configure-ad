@@ -121,6 +121,6 @@ Remote into Client-1 via its Public IP. Log in with the credentials above. You c
 
 </p>
 <p>
-Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual static IP of DC-1) to test connectivity. Run ipconfig /all to confirm that the DNS server for Client-1 is set to DC-1's Private IP.
+Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual static IP of DC-1) to test connectivity. Run ipconfig /all to confirm that the DNS server for Client-1 is set to DC-1's Private IP. After that you can close client-1 as we need to remote in DC-1 for the next step.
 </p>
 <br />
