@@ -152,3 +152,12 @@ After the restart, in Server Manager click the flag icon and select Promote this
 <p>
 On DC-1, open Active Directory Users and Computers (ADUC). Create two Organizational Units (OUs) under mydomain.com (e.g., _EMPLOYEES and _ADMINS). Create a new user (e.g., Jane Doe with logon name jane_admin@mydomain.com and password Cyberlab123!) and add the user to the Domain Admins group.
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/bb7fd9f9-e91b-4fe6-8c98-0c019c5c1e2d"/>
+<img src="https://github.com/user-attachments/assets/e14cd81c-b1fe-44a2-9c62-59dad229ff7e"/>
+<img src="https://github.com/user-attachments/assets/26be7822-10cd-4326-b909-605b68293078"/>
+</p>
+<p>
+Remote Desktop into Client-1 using it's public IP address.
+<br />
