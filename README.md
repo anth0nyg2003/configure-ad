@@ -124,3 +124,12 @@ Remote into Client-1 via its Public IP. Log in with the credentials above. You c
 Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual static IP of DC-1) to test connectivity. Run ipconfig /all to confirm that the DNS server for Client-1 is set to DC-1's Private IP. After that you can close client-1 as we need to remote in DC-1 for the next step.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/e72392df-829e-479d-b435-b64d215cdf5d"/>
+<img src="https://github.com/user-attachments/assets/c87f18d5-fb30-49de-9703-35d89d1a0f6a"/>
+<img src="https://github.com/user-attachments/assets/b5614164-101b-420a-b7f2-d699001e9d3a"/>
+</p>
+<p>
+Remote into DC-1 via its Public IP. Log in with the credentials above. Once logged in, click on start (bottom left Windows Icon) and click on Server Manager. Click Add Roles and Features. Select Active Directory Domain Services from the list and complete the wizard. Add features and click next to all steps. Check "Restart the destination server automatically if required." Allow the system to restart after installation.
+<br />
