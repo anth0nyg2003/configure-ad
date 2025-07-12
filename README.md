@@ -133,3 +133,13 @@ Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual stati
 <p>
 Remote into DC-1 via its Public IP. Log in with the credentials above. Once logged in, click on start (bottom left Windows Icon) and click on Server Manager. Click Add Roles and Features. Select Active Directory Domain Services from the list and complete the wizard. Add features and click next to all steps. Check "Restart the destination server automatically if required." Allow the system to restart after installation.
 <br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/9627c055-c4b8-4a85-bb07-396c468f29f6"/>
+<img src="https://github.com/user-attachments/assets/518e0249-c342-40d8-9f3f-afd4a177689c"/>
+<img src="https://github.com/user-attachments/assets/d1108b91-efdf-4584-90e3-11756dc1bf80"/>
+<img src="https://github.com/user-attachments/assets/99f8c575-6fb8-452a-b084-ce4adaf66ced"/>
+</p>
+<p>
+After the restart, in Server Manager click the flag icon and select Promote this server to a domain controller. Choose Add a new forest and enter mydomain.com as the root domain name. Provide the Directory Services Restore Mode (DSRM) password (Password1) and complete the wizard. The system will restart; upon logging back in, your login should display mydomain.com\labuser.
+<br />
