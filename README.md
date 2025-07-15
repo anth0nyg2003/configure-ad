@@ -28,6 +28,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Configure Client-1 to Use DC-1 as its DNS server
 - Verify Connectivity Between Client-1 and DC-1
 - Install Active Directory Domain Services
+- Promote DC-1 as Domain Controller
+- Create a Domain Admin User in Active Directory
+- Join Client-1 to the Domain
+- Verify Domain Join in Active Directory
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -154,10 +158,26 @@ On DC-1, open Active Directory Users and Computers (ADUC). Create two Organizati
 <br />
 
 <p>
-<img src="https://github.com/user-attachments/assets/bb7fd9f9-e91b-4fe6-8c98-0c019c5c1e2d"/>
-<img src="https://github.com/user-attachments/assets/e14cd81c-b1fe-44a2-9c62-59dad229ff7e"/>
-<img src="https://github.com/user-attachments/assets/26be7822-10cd-4326-b909-605b68293078"/>
+<img src="https://github.com/user-attachments/assets/1ab9b747-38f2-4fb2-8b7b-926999ddf4de"/>
+<img src="https://github.com/user-attachments/assets/512d4226-bda4-4043-a150-1ea94d1415fe"/>
+<img src="https://github.com/user-attachments/assets/f40100ec-0eb8-46fa-b118-594371373c0a"/>
 </p>
 <p>
-Remote Desktop into Client-1 using it's public IP address.
+Remote Desktop into Client-1 using it's public IP address. On Client-1, log in using the local labuser credentials. Navigate to Settings > System > About > Advanced system settings, and click Change under the Computer Name tab. Select Domain and enter mydomain.com, then provide the Domain Admin credentials (mydomain.com\jane_admin) when prompted. Restart Client-1 to complete the domain join. On DC-1, open Active Directory Users and Computers. Expand mydomain.com and check the Computers container to confirm that Client-1 appears. Optionally, create an OU named _CLIENTS and move Client-1 into it.
 <br />
+---
+
+## Conclusion
+
+In this lab, I established a complete Active Directory environment by:
+
+- Creating a Resource Group and Virtual Network in Azure.
+- Deploying a Domain Controller (**DC-1**) and a client machine (**Client-1**).
+- Configuring static IP and custom DNS settings to ensure proper communication.
+- Installing and promoting AD DS on **DC-1** to form a new forest (`mydomain.com`).
+- Creating a Domain Admin user and joining **Client-1** to the domain.
+- Verifying the setup in Active Directory Users and Computers.
+
+This comprehensive lab simulates a real-world Active Directory environment and serves as a foundational setup for advanced AD management tasks.
+
+---
