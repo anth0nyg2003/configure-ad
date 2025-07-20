@@ -121,6 +121,7 @@ In the Azure portal, navigate to DC-1 then Networking and copy the Domain Contro
 <br />
 
 <p>
+ Step 6: Verify Connectivity Between Client-1 and DC-1
 <img src="https://github.com/user-attachments/assets/0b67fd44-1095-4853-a12c-e859f39fe77f"/>
 <img src="https://github.com/user-attachments/assets/b8e73753-f69c-44ec-8c69-5b78b7ba1482"/>
 <img src="https://github.com/user-attachments/assets/e63a8ebb-171f-4a2e-9b59-f58fca44f428"/>
