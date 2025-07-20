@@ -175,7 +175,8 @@ On DC-1, open Active Directory Users and Computers (ADUC). Create two Organizati
 <p>
  Step 10: Join Client-1 to the Domain
 <img src="https://github.com/user-attachments/assets/1ab9b747-38f2-4fb2-8b7b-926999ddf4de"/>
-<img src="https://github.com/user-attachments/assets/512d4226-bda4-4043-a150-1ea94d1415fe"/>
+<img src="https://github.com/user-attachments/assets/512d4226-bda4-4043-a150-1ea94d1415fe"/> <br />
+ Step 11: Verify Domain Join in Active Directory
 <img src="https://github.com/user-attachments/assets/f40100ec-0eb8-46fa-b118-594371373c0a"/>
 </p>
 <p>
