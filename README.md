@@ -142,6 +142,7 @@ Open Windows PowerShell as Administrator. Run ping 10.0.0.4 (or the actual stati
 <br />
 
 <p>
+ Step 7: Install Active Directory Domain Services
 <img src="https://github.com/user-attachments/assets/e72392df-829e-479d-b435-b64d215cdf5d"/>
 <img src="https://github.com/user-attachments/assets/c87f18d5-fb30-49de-9703-35d89d1a0f6a"/>
 <img src="https://github.com/user-attachments/assets/b5614164-101b-420a-b7f2-d699001e9d3a"/>
@@ -151,6 +152,7 @@ Remote into DC-1 via its Public IP. Log in with the credentials above. Once logg
 <br />
 
 <p>
+ Step 8: Promote DC-1 as Domain Controller
 <img src="https://github.com/user-attachments/assets/9627c055-c4b8-4a85-bb07-396c468f29f6"/>
 <img src="https://github.com/user-attachments/assets/518e0249-c342-40d8-9f3f-afd4a177689c"/>
 <img src="https://github.com/user-attachments/assets/d1108b91-efdf-4584-90e3-11756dc1bf80"/>
@@ -161,6 +163,7 @@ After the restart, in Server Manager click the flag icon and select Promote this
 <br />
 
 <p>
+ Step 9: Create a Domain Admin User in Active Directory
 <img src="https://github.com/user-attachments/assets/bb7fd9f9-e91b-4fe6-8c98-0c019c5c1e2d"/>
 <img src="https://github.com/user-attachments/assets/e14cd81c-b1fe-44a2-9c62-59dad229ff7e"/>
 <img src="https://github.com/user-attachments/assets/26be7822-10cd-4326-b909-605b68293078"/>
@@ -170,6 +173,7 @@ On DC-1, open Active Directory Users and Computers (ADUC). Create two Organizati
 <br />
 
 <p>
+ Step 10: Join Client-1 to the Domain
 <img src="https://github.com/user-attachments/assets/1ab9b747-38f2-4fb2-8b7b-926999ddf4de"/>
 <img src="https://github.com/user-attachments/assets/512d4226-bda4-4043-a150-1ea94d1415fe"/>
 <img src="https://github.com/user-attachments/assets/f40100ec-0eb8-46fa-b118-594371373c0a"/>
