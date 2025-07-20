@@ -47,6 +47,7 @@ In the Azure portal, create a Resource Group named Active-Directory-Lab, and a V
 <br />
 
 <p>
+ Step 2: Create Virtual Machines (Domain Controller & Client 1)
 <img src="https://github.com/user-attachments/assets/f9280da4-9930-4be2-9207-ad19663a865a"/>
 <img src="https://github.com/user-attachments/assets/d35b3308-f9e3-40a3-a9b1-8b0f7921b3ec"/>
 
