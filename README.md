@@ -96,12 +96,16 @@ Remote into DC-1 using its Public IP via Remote Desktop. Log in using the creden
 This is what the remote desktop session looks like on DC-1.
 </p>
 <p>
- Step 4: Disable Windows Firewall
 <img src="https://github.com/user-attachments/assets/cc199de1-0369-4a4d-94a3-5f850a6ab6e1"/>
 <img src="https://github.com/user-attachments/assets/5961ab1b-9d0a-4e3b-9868-9fc7cca1e4e4"/>
 </p>
 <p>
 Right Click Start menu or the bottom left windows icon and click run. Type wf.msc for Windows Firewall.
+</p>
+<p>
+ <img src="https://github.com/user-attachments/assets/6170e363-ecf3-4edf-9523-99d3d7fac268"/>
+ <br />
+ Disable the firewall on the Domain, Private, and Public profiles to avoid connectivity issues.
 </p>
 <br />
 
