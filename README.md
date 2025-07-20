@@ -69,6 +69,7 @@ Create the VM Client-1using the Windows 10 Pro image. Use the same credentials a
 <br />
 
 <p>
+ Step 3: Set Static IP for the Domain Controller
 <img src="https://github.com/user-attachments/assets/d63f75ae-24d7-40fb-82d6-fc0e9929713c"/>
 <img src="https://github.com/user-attachments/assets/b7fdf84d-c63c-45e0-bf04-894876f24e56"/>
 
@@ -79,6 +80,7 @@ Configure DC-1's network interface to use a static private IP address. You do th
 <br />
 
 <p>
+ Step 4: Log in to Domain Controller via Remote Desktop and Disable Windows Firewall
 <img src="https://github.com/user-attachments/assets/9ce98f2c-2e4e-4ac9-8b57-c2bef90ae851"/>
 <img src="https://github.com/user-attachments/assets/168044ad-e772-48b6-8166-75a6b0107107"/>
 
@@ -94,6 +96,7 @@ Remote into DC-1 using its Public IP via Remote Desktop. Log in using the creden
 This is what the remote desktop session looks like on DC-1.
 </p>
 <p>
+ Step 4: Disable Windows Firewall
 <img src="https://github.com/user-attachments/assets/cc199de1-0369-4a4d-94a3-5f850a6ab6e1"/>
 <img src="https://github.com/user-attachments/assets/5961ab1b-9d0a-4e3b-9868-9fc7cca1e4e4"/>
 </p>
@@ -103,6 +106,7 @@ Right Click Start menu or the bottom left windows icon and click run. Type wf.ms
 <br />
 
 <p>
+ Step 5: Configure Client-1 to Use DC-1 as its DNS server
 <img src="https://github.com/user-attachments/assets/7b52e8ec-fb2d-4c5f-a1cf-76039b73e98e"/>
 <img src="https://github.com/user-attachments/assets/4af3c22f-4b14-4019-8f81-d1d7847322c1"/>
 
