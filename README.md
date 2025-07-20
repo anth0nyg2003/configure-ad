@@ -47,7 +47,7 @@ In the Azure portal, create a Resource Group named Active-Directory-Lab, and a V
 <br />
 
 <p>
- Step 2: Create Virtual Machines (Domain Controller & Client 1)
+ Step 2: Create Virtual Machine for Domain Controller
 <img src="https://github.com/user-attachments/assets/f9280da4-9930-4be2-9207-ad19663a865a"/>
 <img src="https://github.com/user-attachments/assets/d35b3308-f9e3-40a3-a9b1-8b0f7921b3ec"/>
 
@@ -58,6 +58,7 @@ Create the VM DC-1 using the Windows Server 2022 Datacenter image with at least 
 <br />
 
 <p>
+ Step 2: Create Virtual Machine for Client 1
 <img src="https://github.com/user-attachments/assets/41f5e412-44e7-4b00-9be6-ce1d24b9fb0c"/>
 <img src="https://github.com/user-attachments/assets/44ca1b34-67f3-4fab-9ecd-83818adaabcd"/>
 
